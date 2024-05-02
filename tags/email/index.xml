@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Visional</title>
+    <link>https://visionallabs.com/tags/email/</link>
+    <description>Recent content in Email on Visional</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2024 09:17:17 +0600</lastBuildDate>
+    <atom:link href="https://visionallabs.com/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Updated DMARC Rules</title>
+      <link>https://visionallabs.com/blog/the-updated-dmarc-rules/</link>
+      <pubDate>Wed, 01 May 2024 09:17:17 +0600</pubDate>
+      <guid>https://visionallabs.com/blog/the-updated-dmarc-rules/</guid>
+      <description>The implementation of new DMARC (Domain-based Message Authentication, Reporting, and Conformance) policy rules by major email service providers, including Google, has significant implications for email security and deliverability. These stricter policies aim to combat email spoofing and phishing attacks, but they also require businesses to enhance their email authentication practices to ensure their messages are delivered reliably and securely.&#xA;What This Means To You In response to the growing threat of email spoofing and phishing attacks, major email service providers, led by Google, have announced the implementation of new DMARC policy rules.</description>
+    </item>
+  </channel>
+</rss>
