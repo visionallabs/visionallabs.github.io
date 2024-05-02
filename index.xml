@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Visional</title>
-    <link>https://visionallabs.github.io/</link>
+    <link>https://visionallabs.com/</link>
     <description>Recent content on Visional</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 May 2024 13:18:32 +0600</lastBuildDate>
-    <atom:link href="https://visionallabs.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://visionallabs.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Do Better</title>
-      <link>https://visionallabs.github.io/blog/do-better/</link>
+      <link>https://visionallabs.com/blog/do-better/</link>
       <pubDate>Wed, 01 May 2024 13:18:32 +0600</pubDate>
-      <guid>https://visionallabs.github.io/blog/do-better/</guid>
+      <guid>https://visionallabs.com/blog/do-better/</guid>
       <description>Making continuous improvement and positive impact a daily goal fosters personal growth, enhances productivity, and contributes to the betterment of society. By embracing this mindset, individuals and organizations can cultivate a culture of innovation, excellence, and social responsibility, driving meaningful change and leaving a lasting legacy.&#xA;The Thing You Must Do In a world marked by constant change and complexity, the pursuit of improvement, both personal and collective, is essential for progress and success.</description>
     </item>
     <item>
       <title>Getting Lean And Loving It</title>
-      <link>https://visionallabs.github.io/blog/getting-lean-and-loving-it/</link>
+      <link>https://visionallabs.com/blog/getting-lean-and-loving-it/</link>
       <pubDate>Wed, 01 May 2024 11:18:56 +0600</pubDate>
-      <guid>https://visionallabs.github.io/blog/getting-lean-and-loving-it/</guid>
+      <guid>https://visionallabs.com/blog/getting-lean-and-loving-it/</guid>
       <description>Iterating with Lean methodology offers organizations a structured approach to continuous improvement, waste reduction, and value maximization. By embracing iterative cycles of experimentation, feedback, and adaptation, Lean empowers teams to deliver higher-quality products, enhance customer satisfaction, and drive sustainable growth in dynamic and competitive markets.&#xA;Trim Off The Production Fat In today&amp;rsquo;s fast-paced and rapidly changing business landscape, organizations are constantly seeking ways to optimize their processes, improve their products, and deliver greater value to their customers.</description>
     </item>
     <item>
       <title>The New Key Pair In Town</title>
-      <link>https://visionallabs.github.io/blog/the-new-key-pair-in-town/</link>
+      <link>https://visionallabs.com/blog/the-new-key-pair-in-town/</link>
       <pubDate>Wed, 01 May 2024 11:16:38 +0600</pubDate>
-      <guid>https://visionallabs.github.io/blog/the-new-key-pair-in-town/</guid>
+      <guid>https://visionallabs.com/blog/the-new-key-pair-in-town/</guid>
       <description>Valkey is an innovative open-source database system, inspired by Redis, designed to provide high-performance, scalable, and reliable key-value storage solutions for modern applications. With its focus on simplicity, speed, and flexibility, Valkey aims to empower developers and businesses with a robust data management platform that meets the demands of today&amp;rsquo;s dynamic and data-intensive environments.&#xA;The Real Skinny: In the realm of data storage and retrieval, efficiency, reliability, and scalability are paramount.</description>
     </item>
     <item>
       <title>Networks, Identify Yourselves!</title>
-      <link>https://visionallabs.github.io/blog/networks-identify-yourselves/</link>
+      <link>https://visionallabs.com/blog/networks-identify-yourselves/</link>
       <pubDate>Wed, 01 May 2024 11:15:47 +0600</pubDate>
-      <guid>https://visionallabs.github.io/blog/networks-identify-yourselves/</guid>
+      <guid>https://visionallabs.com/blog/networks-identify-yourselves/</guid>
       <description>YANG, a data modeling language, has revolutionized the field of networking by providing a standardized way to define and manage network configurations. Through its hierarchical structure, expressive syntax, and platform-agnostic nature, YANG enables interoperability, automation, and scalability in network management, paving the way for more efficient and agile network infrastructures.&#xA;What is YANG? In the ever-evolving landscape of networking, managing the complexity of modern networks efficiently has become paramount. Enter YANG (Yet Another Next Generation), a data modeling language standardized by the IETF (Internet Engineering Task Force), which has emerged as a game-changer in network configuration and management.</description>
     </item>
     <item>
       <title>Of Yin And Yang</title>
-      <link>https://visionallabs.github.io/blog/of-yin-and-yang/</link>
+      <link>https://visionallabs.com/blog/of-yin-and-yang/</link>
       <pubDate>Wed, 01 May 2024 10:18:32 +0600</pubDate>
-      <guid>https://visionallabs.github.io/blog/of-yin-and-yang/</guid>
+      <guid>https://visionallabs.com/blog/of-yin-and-yang/</guid>
       <description>SNMP (Simple Network Management Protocol) and YANG (Yet Another Next Generation) are closely related technologies that play complementary roles in network management. SNMP serves as a protocol for monitoring and managing network devices, while YANG provides a data modeling language for defining the structure and semantics of network configurations. Together, SNMP and YANG form a powerful framework for orchestrating network operations, enabling administrators to monitor, configure, and optimize network infrastructure effectively.</description>
     </item>
     <item>
       <title>The Updated DMARC Rules</title>
-      <link>https://visionallabs.github.io/blog/the-updated-dmarc-rules/</link>
+      <link>https://visionallabs.com/blog/the-updated-dmarc-rules/</link>
       <pubDate>Wed, 01 May 2024 09:17:17 +0600</pubDate>
-      <guid>https://visionallabs.github.io/blog/the-updated-dmarc-rules/</guid>
+      <guid>https://visionallabs.com/blog/the-updated-dmarc-rules/</guid>
       <description>The implementation of new DMARC (Domain-based Message Authentication, Reporting, and Conformance) policy rules by major email service providers, including Google, has significant implications for email security and deliverability. These stricter policies aim to combat email spoofing and phishing attacks, but they also require businesses to enhance their email authentication practices to ensure their messages are delivered reliably and securely.&#xA;What This Means To You In response to the growing threat of email spoofing and phishing attacks, major email service providers, led by Google, have announced the implementation of new DMARC policy rules.</description>
     </item>
   </channel>
