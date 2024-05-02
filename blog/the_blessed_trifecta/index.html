@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+    <title>The Blessed Trifecta</title>
+
+    <!--Meta For No Index-->
+    <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+    <!--mobile responsive meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="generator" content="Hugo 0.125.4">
+    <!-- Critical CSS -->
+    
+    <link href="http://localhost:1313/scss/critical.min.css" rel="stylesheet" />
+
+    
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon" />
+
+    
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%23"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', '#');
+      
+    </script>
+    
+
+    
+  </head>
+
+<body>
+<header class="header">
+  <nav class="main-nav navbar navbar-expand-lg main-nav-colored">
+    <div class="container-fluid">
+      <a href="http://localhost:1313/" class="navbar-brand">
+        <img src="http://localhost:1313/images/logo.png" alt="site-logo" />
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse nav-list"
+        id="mainNav"
+      >
+        <ul class="navbar-nav ml-auto">
+          
+          
+          
+          <li class="nav-item ">
+             <a class="nav-link scroll-to" href="/#gallery">The Non Space</a>
+          </li>
+          
+          <li class="nav-item ">
+             <a class="nav-link scroll-to" href="/#service">What We Do</a>
+          </li>
+          
+          <li class="nav-item ">
+             <a class="nav-link scroll-to" href="/about/">About Us</a>
+          </li>
+          
+          <li class="nav-item ">
+             <a class="nav-link scroll-to" href="/#blog">Our Words</a>
+          </li>
+          
+          <li class="nav-item ">
+             <a class="nav-link scroll-to" href="/#faq">FAQ</a>
+          </li>
+          
+          <li class="nav-item ">
+             <a class="nav-link scroll-to" href="/contact/">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div id="content">
+<article class="post">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="post-title">
+          <h2>The Blessed Trifecta</h2>
+        </div>
+        <div class="post-meta">
+          <p><span>July 6, 2023</span> in 
+            
+              <a class="tags" href="http://localhost:1313/tags/email/">Email</a>
+            
+              <a class="tags" href="http://localhost:1313/tags/security/">Security</a>
+            
+              <a class="tags" href="http://localhost:1313/tags/spam/">Spam</a>
+            
+              <a class="tags" href="http://localhost:1313/tags/spf/">Spf</a>
+            
+              <a class="tags" href="http://localhost:1313/tags/dmarc/">Dmarc</a>
+            
+              <a class="tags" href="http://localhost:1313/tags/dkim/">Dkim</a>
+            
+          </p>
+        </div>
+        <div class="post-image">
+          <img src="http://localhost:1313/" alt="feature-image">
+        </div>
+        <div class="post-body">
+          <p>You need to take a moment and learn about SPF, DMARC, and DKIM, as these are related to your mail services.</p>
+<p>Domain-based Message Authentication, Reporting, and Conformance (DMARC) works with Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM) to authenticate mail senders.</p>
+<p>These are three protection mechanisms that help maintain mail purity as it travels to your mail recipients, but is not an automatic thing in many cases across many service providers. As an interested party in the safety of you and your organization&rsquo;s email, you really need to have all three.</p>
+<p>Let&rsquo;s talk about it.</p>
+<p>DMARC ensures the destination email systems trust messages sent from your domain. Using DMARC with SPF and DKIM gives organizations like yours protection against spoofing and phishing emails. DMARC helps mail systems that are receiving your messages decide what to do with those nasty &ldquo;messages&rdquo; pretending to be from your domain that fail SPF or DKIM checks.</p>
+<p>How do SPF and DMARC work together?</p>
+<p>An email message can contain multiple originator or sender addresses. These addresses are used for different purposes. For example, look at these addresses:</p>
+<ul>
+<li>&ldquo;Mail From&rdquo; address: Identifies the sender and says where to send return notices if any problems occur with the delivery of the message (such as non-delivery notices). The Mail From address appears in the envelope portion of an email message and isn&rsquo;t displayed by your email application, and is sometimes called the 5321.MailFrom address or the reverse-path address.</li>
+<li>&ldquo;From&rdquo; address: The address displayed as the From address by your mail application. From address identifies the author of the email. That is, the mailbox of the person or system responsible for writing the message. The From address is sometimes called the 5322.From address.</li>
+</ul>
+<p>SPF uses a DNS TXT record to list the specific authorized sending IP addresses and services for a domain. Normally, SPF checks only get performed against the 5321.MailFrom address. The 5322.From address (remember, that&rsquo;s the second one) isn&rsquo;t authenticated when you use SPF by itself, which allows for a scenario where a user gets a message that passed SPF checks but has a spoofed 5322.From sender address.</p>
+<p>This is no fun for anybody, because it&rsquo;s a huge security hole in the phishing and spam realm.</p>
+<p>The 5321 and 5322 numbers are highly boring geek-speak referring to the Request For Comments (RFC) on these provided by the Internet Engineering Task Force (IETF). If you&rsquo;d like to tiptoe through the tulips of Internet pain, I leave them here for your reference:</p>
+<p><a href="https://datatracker.ietf.org/doc/html/rfc5321">RFC 5321</a> - Simple Mail Transfer Protocol (SMTP)<br>
+<a href="https://datatracker.ietf.org/doc/html/rfc5322">RFC 5322</a> - Internet Message Format</p>
+<p>Let me give you an example, and in this one the sender addresses are as follows:</p>
+<p>Mail from address (5321.MailFrom): <a href="mailto:badguy@phishing.nastyplace.com">badguy@phishing.nastyplace.com</a></p>
+<p>From address (5322.From): <a href="mailto:security@yourhappydomain.com">security@yourhappydomain.com</a></p>
+<p>If SPF is configured, then the receiving server does a check against the Mail from address <a href="mailto:badguy@phishing.nastyplace.com">badguy@phishing.nastyplace.com</a>. If the message came from a valid source for the domain phishing.nastyplace.com, then the SPF check passes. By &ldquo;valid source&rdquo;, that means that the originating server exists, not that it&rsquo;s actually yours. See the problem already in progress? Since the email client only displays the From address, the user sees this message came from <a href="mailto:security@yourhappydomain.com">security@yourhappydomain.com</a>. With SPF alone, the validity of yourhappydomain.com was never authenticated.</p>
+<p>When we use DMARC, the receiving server will additionally perform a check against the From address. In the example above, if there&rsquo;s a DMARC TXT record in place for yourhappydomain.com, then the check against the From address fails because the &ldquo;Mail from&rdquo; is a mismatch against the legitimate domain.</p>
+<p>That deceptive email is bounced or quarantined, and the crisis you never knew you had is diverted.</p>
+<p>Once we&rsquo;ve set up SPF and DMARC, we need to set up DKIM.</p>
+<p>DKIM lets you add a digital signature to email messages in the message header that certify the message in fact originated from your mail server and nowhere else. It&rsquo;s a security measure for your domain specifically, similar to a house or car key, except more cryptographic and messier looking. If you don&rsquo;t set up DKIM and instead allow the mail server to use their default DKIM configuration for your domain, DMARC may fail. This failure can happen because the default DKIM configuration will use the standard nexcess.net domain as the 5321.MailFrom address, not your specific domain. This creates a mismatch between the 5321.MailFrom and the 5322.From addresses in all the email sent from your domain.</p>
+<p>There are other hairs we could split here that include third-party services like Microsoft and GMail, but this is meant to provide an overview of these three records and why they must be intentionally and correctly implemented.</p>
+<p>If you ever have a need to verify these settings for yourself, or for another domain, I use the following site to check and generate these settings in a simple, yet effective manner:</p>
+<p><a href="https://dmarcly.com/tools/">DMARCLY</a></p>
+<p>I also have a little tool that will check all of these settings at the command line for you. In fact, it&rsquo;s called <code>trifecta</code>.</p>
+<p>You want to make sure that your mail goes where you want it to go, because you have a professional image to protect, and no one likes the spam folders.</p>
+<p>Except spammers. And we don&rsquo;t include them on our friendly list, do we?</p>
+<p>References:</p>
+<p><a href="https://datatracker.ietf.org/doc/rfc7208/">RFC 7208</a> - Sender Policy Framework (SPF)<br>
+<a href="https://datatracker.ietf.org/doc/rfc7489/">RFC 7489</a> - Domain-based Message Authentication, Reporting, and Conformance (DMARC)<br>
+<a href="https://datatracker.ietf.org/doc/rfc4871/">RFC 4871</a> - DomainKeys Identified Mail (DKIM) Signatures</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+        </div><section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <div class="footer-logo">
+          <img class="img-fluid" src="http://localhost:1313/images/AVL-alt-logo.png" alt="logo">
+        </div>
+        <p class="footer-description">
+          Visional Labs is an open-source innovator dedicated to technology education and fostering collaboration in open-source projects.
+        </p>
+        <div class="footer-text-block">
+          <p>
+            13809 Research Blvd. <br>  Austin, TX 78750
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 col-md-12 align-self-end">
+        <div class="footer-icon">
+          <ul>
+            
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/company/visional-labs">
+                <i
+                  class="ti-linkedin">
+                </i>
+              </a>
+            </li>
+            
+            <li>
+              <a target="_blank" href="https://twitter.com/VisionalLabs">
+                <i
+                  class="ti-twitter-alt">
+                </i>
+              </a>
+            </li>
+            
+            <li>
+              <a target="_blank" href="https://dribbble.com/">
+                <i
+                  class="ti-github">
+                </i>
+              </a>
+            </li>
+            
+            <li>
+              <a target="_blank" href="https://www.youtube.com/@visionallabs">
+                <i
+                  class="ti-youtube">
+                </i>
+              </a>
+            </li>
+            
+            
+            <li><a target="_blank" href="mailto:info@visionallabs.com"><i class="ti-email"></i></a></li>
+            
+            
+            <li><a target="_blank" href="tel:&#43;1%20512%20910%208993"><i class="ti-mobile"></i></a></li>
+            
+          </ul>
+        </div>
+        <div class="footer-copyright-text">
+          <p> © 2024 Aethem Visional Labs. All Rights Reserved. </p>
+          <ul>
+            
+						
+						  <li>
+                <a href="http://localhost:1313/privacy/">Privacy Policy</a>
+              </li>
+            
+						  <li>
+                <a href="http://localhost:1313/terms/">Terms</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Non Critical CSS -->
+
+<link href="http://localhost:1313/scss/non-critical.min.css" rel="stylesheet" />
+<script src="https://maps.googleapis.com/maps/api/js?key=&libraries=geometry">
+</script>
+<!-- VENDOR JS -->
+<script src="http://localhost:1313/vendor/jQuery/jquery.min.js"></script>
+<script src="http://localhost:1313/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="http://localhost:1313/vendor/slick/slick.min.js"></script>
+<script src="http://localhost:1313/vendor/aos/aos.js"></script>
+<script src="http://localhost:1313/vendor/match-height/match-height.js"></script>
+<script src="http://localhost:1313/vendor/magnific-popup/magnific-popup.min.js"></script>
+<script src="http://localhost:1313/vendor/g-map/gmap.js"></script>
+
+ 
+<script src="http://localhost:1313/js/script.min.js"></script>
+</body>
+</html>
