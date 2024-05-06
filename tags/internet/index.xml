@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internet on Visional</title>
-    <link>http://localhost:1313/tags/internet/</link>
+    <link>https://visionallabs.com/tags/internet/</link>
     <description>Recent content in Internet on Visional</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 11:11:11 +0600</lastBuildDate>
+    <atom:link href="https://visionallabs.com/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Try Gemini</title>
+      <link>https://visionallabs.com/blog/try-gemini/</link>
+      <pubDate>Mon, 06 May 2024 11:11:11 +0600</pubDate>
+      <guid>https://visionallabs.com/blog/try-gemini/</guid>
+      <description>The Gemini protocol offers a minimalist yet powerful approach to browsing the web, prioritizing simplicity, privacy, and content-focused experiences. With its lightweight design, text-centric format, and emphasis on user control, Gemini provides a refreshing alternative to traditional web browsing, fostering a more intimate and distraction-free online experience.&#xA;Stop The Noise In a digital landscape characterized by information overload, privacy concerns, and design complexity, the Gemini protocol emerges as a compelling alternative for browsing the web.</description>
+    </item>
   </channel>
 </rss>
